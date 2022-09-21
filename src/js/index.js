@@ -1,13 +1,24 @@
 
-const x1 = 10;
-const x2 = 30;
-const number = 15;
+// const number = 10;
 
-console.log(`Число ${number} потрапляє в відрізок до ${x1}`, number < x1);
-console.log(`Число ${number} потрапляє в відрізок після ${x2}`, number > x2);
+// for (let i = 0; i < number; i += 1) {
+//   if (i % 2 === 0) {
+//     continue;
+//   }
 
-const res1 = number > x1 && number < x2;
-console.log(`Число ${number} потрапляє в відрізок від ${x1} до ${x2}`, res1);
+//   console.log("Непарне i: ", i); // 1, 3, 5, 7, 9
+// }
+// =======================================================
+// const min = 3;
+// const max = 33;
+// let total = 0;
 
-const res2 = number < x1 || number > x2;
-console.log(`Число ${number} потрапляє в відрізок до ${x1} або після ${x2}`, res2);
+// for (let i = min; i <= max; i += 1) {
+//     console.log(i);
+//     if (i % 2 === 0) {
+//         console.log(`even: ${i}`);
+//         total += i;
+//     }
+// }
+// console.log(`sum of even numbers is: ${total}`);
+// =======================================================
